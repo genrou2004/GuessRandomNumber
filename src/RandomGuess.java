@@ -27,5 +27,6 @@ public class RandomGuess {
 		}else
 			System.out.println("Congrats! You guessed correct!");
 	}while(gueesedNumber != x);
+	scan.close();
 	}
 }
